@@ -181,6 +181,22 @@ and contains the id and secret key
     aws_iam_secret_access_key="wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
     
 
+───────────────────────────────────────────────────────────────────────
+# Delegation
+───────────────────────────────────────────────────────────────────────
+
+The above assumes a single vault and passphrase shared with key operators.
+
+Git submodules can be used for multiple individual .passwor-store vaults.
+
+_TODO_  
+
+	_formalize this later_ 
+ 
+ 	_get it working for a single store first_
+ 
+
+
 
 ───────────────────────────────────────────────────────────────────────
 # Initialization 
