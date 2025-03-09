@@ -50,11 +50,14 @@ Ensure you have installed the prerequisistes (git, tree, pass gnupg, sshpass).
 
 ## cygwin
 
+On cygwin, `gnupg` and is v1.x,  `gnupg2` is 2.x (we need 2.x for gpg-agent).
+
+
 ```
 apt-cyg install git
 apt-cyg install tree
 apt-cyg install pass
-apt-cyg install gnupg
+apt-cyg install gnupg2
 apt-cyg install sshpass
 ```
 
